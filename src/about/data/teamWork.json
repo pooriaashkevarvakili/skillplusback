@@ -1,0 +1,20 @@
+{
+    "message":"پیام با موفقیت انجام شد",
+    "data":[
+        {
+            "title":"برنامه نویس فرانت اند",
+            "img":"https://s33.picofile.com/file/8483033342/tecknlology.png",
+            "description":"آقای روزبه تندکار"
+        },
+        {
+            "title":"uiux",
+            "img":"https://s33.picofile.com/file/8483033534/uiux.png",
+            "description":"آقای روزبه تندکار"
+        },
+        {
+            "title":"برنامه نویس بک اند",
+            "img":"https://s33.picofile.com/file/8483033526/backend.png",
+            "description":"آقای پوریا وکیلی"
+        }
+    ]
+}
