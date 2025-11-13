@@ -12,11 +12,7 @@ import { Application } from './user/entity/application.entity';
 
 @Module({
   imports: [
-    TypeOrmModule.forFeature([User]),
-      JwtModule.register({
-      secret: process.env.JWT_SECRET || 'superSecretKey',
-      signOptions: { expiresIn: '1h' },
-    }),
+   
     TypeOrmModule.forRoot({
       type: 'postgres',
       url: 'postgresql://project_skillplus_user:2GQSlMy1JoHmHEXrVnIkqxf7clCWxJ1G@dpg-d4b0vmqli9vc73dm9vfg-a/project_skillplus',
