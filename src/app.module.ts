@@ -18,7 +18,7 @@ import { Application } from './user/entity/application.entity';
       url: 'postgresql://project_skillplus_user:2GQSlMy1JoHmHEXrVnIkqxf7clCWxJ1G@dpg-d4b0vmqli9vc73dm9vfg-a/project_skillplus',
       synchronize: true,           // فقط برای توسعه
       autoLoadEntities: true,
-      entities: [User],
+      entities: [User,Post,Application],
     }),
     UserModule,
          AboutModule,
